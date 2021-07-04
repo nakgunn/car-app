@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 40vh;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content form .form-email {
+    margin-bottom: 3px;
+}
+.content form .form-password {
+    margin-bottom: 6px;
+    
+}
+
+.content form .login-button {
+    background-color:rgb(200, 150, 100) ;
+    color: white;
+    
+}
+
+input {
+    background-color: rgb(80, 80, 80) ;
+    border: 1px solid white ;
+    border-radius: 5px;
+}
